@@ -58,6 +58,10 @@ pictionary/
    uvicorn main:app --reload --port 8000
    ```
 
+
+5) To kill - lsof -i :8000
+look for PID and kill -9 "PID"
+
 The backend server will be running at `http://localhost:8000`
 
 ### Frontend Setup
