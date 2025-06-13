@@ -59,11 +59,7 @@ pictionary/
    ```
 
 
-TO END PROCESS
-```lsof -i :8000```
 
-
-look for PID and ```kill -9 "PID"```
 
 The backend server will be running at `http://localhost:8000`
 
@@ -87,6 +83,13 @@ The backend server will be running at `http://localhost:8000`
    ```
 
 The frontend will be running at `http://localhost:5173`
+
+
+TO END PROCESS
+```lsof -i :8000```
+
+
+look for PID and ```kill -9 "PID"```
 
 ## How to Play
 
