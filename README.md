@@ -128,3 +128,6 @@ The backend is built with:
 - `POST /api/rooms/{room_code}/leave` - Leave the room
 - `POST /api/rooms/{room_code}/end` - End the game
 - `GET /api/rooms/{room_code}` - Get room state
+
+
+There are no .env files - hardcoded for local development
